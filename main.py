@@ -3,7 +3,6 @@ import filecmp
 import os
 import os.path
 import time
-from webserver import keep_alive
 
 with open("config/uidstart.txt", "r") as f:
     uidstart = int(f.read())
@@ -24,7 +23,7 @@ loop = True
 
 while uidstart <= uidend:
     if os.path.exists('account_id_' + str(uidstart) + '_yome.png') == False:
-        url = 'http://mc-avatars.miniclipcdn.com/' + str(uidstart) + '-200.png'
+        url = 'https://avatars-live.pool.miniclippt.com/avatars/pool/' + str(uidstart) + '-200.png'
         html = requests.get(url)
 
         with open('account_id_' + str(uidstart) + '_yome.png', 'wb') as r:
@@ -56,7 +55,6 @@ while uidstart <= uidend:
     
     uidstart = uidstart + 1
     CopyCounter = 0
-    keep_alive() 
     
 
     
