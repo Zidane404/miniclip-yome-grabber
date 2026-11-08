@@ -2,7 +2,7 @@
 
 An automated Python data mining and digital preservation tool designed to extract, filter, and archive user-created **Yo Me!** avatars from legacy Miniclip accounts prior to platform deprecation.
 
-This tool successfully processed **25 million account IDs** (IDs 1 through 25,000,000), using byte-level image comparison algorithms to filter out default placeholders and retain only unique, user-customized avatars. The resulting historical collection is hosted publicly on the [Internet Archive]([https://archive.org/download/miniclip_yo_me_collection])(https://archive.org/details/miniclip_yo_me_collection)).
+This tool successfully processed **25 million account IDs** (IDs 1 through 25,000,000), using byte-level image comparison algorithms to filter out default placeholders and retain only unique, user-customized avatars. The resulting historical collection is hosted publicly on the [Internet Archive](https://archive.org/details/miniclip_yo_me_collection).
 
 ---
 
